@@ -1,0 +1,17 @@
+
+.header{
+    background-color: rgb(211, 244, 244);
+    padding: 20px;
+    font-size: 20px;
+   border-radius:4px; 
+box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+.mainLink{
+    text-decoration: none;
+    margin-right: 40px;
+    color: rgb(91, 141, 233);
+ 
+}
+:global .active {
+     color: red;
+}
