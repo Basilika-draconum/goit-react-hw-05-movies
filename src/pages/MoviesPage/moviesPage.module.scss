@@ -1,0 +1,25 @@
+.form{
+    padding: 20px;
+}
+.input_search{
+    margin: 0 10px 0;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 2px;
+    border:2px solid rgb(91, 141, 233);
+    &::placeholder {
+        color: #B0BEC5;
+    }
+    &:focus {
+        outline: none;
+        box-shadow: 0.2rem 0.8rem 1.6rem var(--colorPrimary600);
+    }
+}
+.button_search{
+    padding: 10px;
+    border-radius: 2px;
+    border: 2px solid rgb(91, 141, 233);
+    font-size: 20px;
+    background: linear-gradient(109.6deg, rgba(17, 94, 199, 1) 11.2%, rgba(63, 241, 152, 0.79) 100.6%);
+    cursor:pointer;
+}

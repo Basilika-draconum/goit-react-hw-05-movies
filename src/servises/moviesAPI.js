@@ -12,3 +12,8 @@ export const getTrendingMovies = async params => {
   const { data } = await moviesApi.get('/3/trending/all/day', { params });
   return data;
 };
+
+export const getMovieById = async (id, params) => {
+  const { data } = await moviesApi.get(`/3/movie/${id}`, { params });
+  return data;
+};
