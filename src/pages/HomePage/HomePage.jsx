@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { getTrendingMovies } from 'servises/moviesAPI';
 import MovieItem from '../../components/MovieItem/MovieItem';
 
-export const HomePage = () => {
+const HomePage = () => {
   const [trendMovies, setTrendMovies] = useState([]);
 
   useEffect(() => {
@@ -24,3 +24,4 @@ export const HomePage = () => {
     </>
   );
 };
+export default HomePage;
